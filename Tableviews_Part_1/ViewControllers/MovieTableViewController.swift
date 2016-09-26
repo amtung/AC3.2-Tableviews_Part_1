@@ -178,7 +178,7 @@ class MovieTableViewController: UITableViewController {
             }
         case .twentyFirstCentury:
             filter = { (a) -> Bool in
-                a.year > 2000
+                a.year > 2000 
             }
         }
 

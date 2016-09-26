@@ -8,14 +8,14 @@
 
 import Foundation
 
-internal struct Movie {
+struct Movie {
     
-    internal var title: String
-    internal var year: Int
-    internal var genre: String
-    internal var cast: [Actor]
-    internal var locations: [String]
-    internal var summary: String
+     var title: String
+     var year: Int
+     var genre: String
+     var cast: [Actor]
+     var locations: [String]
+     var summary: String
     
     init(from data: [String : Any]) {
         // 1. Start by getting our property values and casting them..
